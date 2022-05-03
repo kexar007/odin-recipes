@@ -1,0 +1,29 @@
+
+.MH{
+    color: hwb(0 100% 0%);
+    background-color: rgb(3, 36, 73);
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    
+    
+}
+
+.rlist{
+    text-align: left;
+    font-family: sans-serif;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    
+}
+a{
+    background-color: #690f09;
+    color: white;
+    padding: 14px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15px;
+}
+  
