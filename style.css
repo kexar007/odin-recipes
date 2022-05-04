@@ -1,3 +1,4 @@
+ /* {    border: 1px red solid;} */
 
 .MH{
     color: white;
@@ -8,21 +9,27 @@
     
     
 }
+#mlist{
+    max-width: fit-content;
+    margin: 0 auto;
 
-.rlist{
-    text-align: left;
+}
+
+.rlist li{
+    
     font-family: sans-serif;
     list-style-type: none;
-    background-color: rgb(255, 255, 255);
+    display: inline-block;
+   
+
     
 }
 a{
-    background-color: #690f09;
-    color: white;
+    background-color: #770f08fa;
+    color: rgb(255, 255, 255);
     padding: 14px 25px;
     text-align: left;
     text-decoration: none;
-    display: inline-block;
     margin: 15px;
     border-radius: 15px;
 }
