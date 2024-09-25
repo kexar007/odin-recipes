@@ -1,4 +1,4 @@
- /* {    border: 1px red solid;} */
+  *{    border: 1px rgb(231, 173, 173) solid;} 
 
 .MH{
     color: white;
@@ -9,23 +9,35 @@
     
     
 }
-#mlist{
-    max-width: fit-content;
-    margin: 0 auto;
 
+
+#mlist{
+    display: flex;
+    border: 1px rgb(20, 18, 18) solid;
+    flex-direction: row;
+    align-items: center;
+    
 }
 
-.rlist li{
-    
+
+.rlist{
+    display: flex;
+    align-items: center;
+}
+
+/* .rlist li{
+    display:inline-block
     font-family: sans-serif;
     list-style-type: none;
-    display: inline-block;
+    
    
 
     
-}
+} */
+
+
 a{
-    background-color: #770f08fa;
+   /*  background-color: #770f08fa; */
     color: rgb(255, 255, 255);
     padding: 14px 25px;
     text-align: left;
